@@ -5,7 +5,7 @@ import Bottombar from '../components/Bottombar'
 import Tabsbar from './Tabsbar'
 import styles from '../styles/Layout.module.css'
 import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 const Layout = ({ children }) => {
     // set scroll to top of main content on url pathname change

@@ -2,6 +2,13 @@
     "name": "vscode-portfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage": "/",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ],
     "scripts": {
         "dev": "next dev",
         "build": "next build",

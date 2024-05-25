@@ -1,4 +1,4 @@
-import Image from 'next/image'
+/* import Image from 'next/image'
 import GitHubCalendar from 'react-github-calendar'
 import RepoCard from '../components/RepoCard'
 import styles from '../styles/GithubPage.module.css'
@@ -13,7 +13,6 @@ const GithubPage = ({ repos, user }) => {
     const theme = {
         light: [level0, level1, level2, level3, level4],
     }
-
     return (
         <>
             <div className={styles.user}>
@@ -82,3 +81,4 @@ export async function getStaticProps() {
 }
 
 export default GithubPage
+ */

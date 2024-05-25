@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import FilesIcon from './icons/FilesIcon'
 import GithubIcon from './icons/GithubIcon'
 import CodeIcon from './icons/CodeIcon'
@@ -14,10 +14,10 @@ const sidebarTopItems = [
         Icon: FilesIcon,
         path: '/',
     },
-    {
+    /*     {
         Icon: GithubIcon,
         path: '/github',
-    },
+    }, */
     {
         Icon: CodeIcon,
         path: '/projects',
