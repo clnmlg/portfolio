@@ -6,9 +6,9 @@ import Tabsbar from './Tabsbar'
 import styles from '../styles/Layout.module.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import withSplashScreen from '../components/withSplashScreen'
 
 const Layout = ({ children }) => {
-    // set scroll to top of main content on url pathname change
     const router = useRouter()
     useEffect(() => {
         const main = document.getElementById('main-editor')
@@ -32,4 +32,4 @@ const Layout = ({ children }) => {
     )
 }
 
-export default Layout
+export default withSplashScreen(Layout)
