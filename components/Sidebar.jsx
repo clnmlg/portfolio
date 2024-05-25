@@ -8,7 +8,6 @@ import MailIcon from "./icons/MailIcon";
 import AccountIcon from "./icons/AccountIcon";
 import SettingsIcon from "./icons/SettingsIcon";
 import styles from "../styles/Sidebar.module.css";
-
 const sidebarTopItems = [
   {
     Icon: FilesIcon,

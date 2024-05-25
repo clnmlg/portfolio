@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styles from "../styles/Tab.module.css";
-
 const Tab = ({ icon, filename, path }) => {
   const router = useRouter();
 
