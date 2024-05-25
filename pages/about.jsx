@@ -1,7 +1,12 @@
 import styles from "../styles/HomePage.module.css";
 import Link from "next/link";
-
+import gsap from "gsap";
 const AboutPage = () => {
+  gsap.registerPlugin(ScrambleTextPlugin);
+  gsap.to(element, {
+    duration: 1,
+    scrambleText: "THIS IS NEW TEXT",
+  });
   return (
     <div>
       <h3>A Little Bit About Me</h3>

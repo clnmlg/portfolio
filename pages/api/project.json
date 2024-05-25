@@ -1,59 +1,59 @@
 [
-    {
-        "id": 1,
-        "name": "iPhone15Pro landing page",
-        "description": "A fully responsive 3D Apple 15 Pro landing page I built on top of React with a touch of Tailwind CSS, ThreeJS & GSAP for animations/3D rendering",
-        "tags": [
-            "react",
-            "three.js",
-            "react-three-fiber",
-            "react-three-drei",
-            "gsap",
-            "vite.js",
-            "tailwindcss"
-        ],
-        "source_code": "https://github.com/clnmlg/iPhone15Pro-landing",
-        "demo": "https://iphone15pro-clone-app.vercel.app/"
-    },
-    {
-        "id": 2,
-        "name": "Banked",
-        "description": "Banked is a banking app with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform using Next.js 14.",
-        "tags": [
-            "react",
-            "nextjs",
-            "typescript",
-            "appwrite",
-            "zod",
-            "dwolla",
-            "plaid",
-            "tailwindcss",
-            "chart.js",
-            "shadcn"
-        ],
-        "source_code": "https://github.com/clnmlg/banked",
-        "demo": "https://banked.vercel.app/"
-    },
-    {
-        "id": 3,
-        "name": "Stackchain",
-        "description": "Stackchain is a free open source crypto social platform for investors. It allow all users to create stacks (grouping of cryptoassets) and share them. Users submit stacks with tokens availables via CoinMarketCap API then communicate with other users about their choices in order to improve or modify their stacks.",
-        "tags": [
-            "node",
-            "express",
-            "mongoose",
-            "mongodb",
-            "react",
-            "materialUI",
-            "redux"
-        ],
-        "source_code": "https://github.com/clnmlg/Stackchain"
-    },
-    {
-        "id": 4,
-        "name": "IvyBridge-Opencore",
-        "description": "An Ivy-bridge EFI configuration for Opencore 0.9.1 Hackintosh",
-        "tags": ["efi", "aml"],
-        "source_code": "https://github.com/clnmlg/IvyBridge-Opencore"
-    }
+  {
+    "id": 1,
+    "name": "iPhone15Pro landing page",
+    "description": "A fully responsive 3D Apple 15 Pro landing page I built on top of React with a touch of Tailwind CSS, ThreeJS & GSAP for animations/3D rendering",
+    "tags": [
+      "react",
+      "three.js",
+      "react-three-fiber",
+      "react-three-drei",
+      "gsap",
+      "vite.js",
+      "tailwindcss"
+    ],
+    "source_code": "https://github.com/clnmlg/iPhone15Pro-landing",
+    "demo": "https://iphone15pro-clone-app.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "Banked",
+    "description": "Banked is a banking app with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform using Next.js 14.",
+    "tags": [
+      "react",
+      "nextjs",
+      "typescript",
+      "appwrite",
+      "zod",
+      "dwolla",
+      "plaid",
+      "tailwindcss",
+      "chart.js",
+      "shadcn"
+    ],
+    "source_code": "https://github.com/clnmlg/banked",
+    "demo": "https://banked.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Stackchain",
+    "description": "Stackchain is a free open source crypto social platform for investors. It allow all users to create stacks (grouping of cryptoassets) and share them. Users submit stacks with tokens availables via CoinMarketCap API then communicate with other users about their choices in order to improve or modify their stacks.",
+    "tags": [
+      "node",
+      "express",
+      "mongoose",
+      "mongodb",
+      "react",
+      "materialUI",
+      "redux"
+    ],
+    "source_code": "https://github.com/clnmlg/Stackchain"
+  },
+  {
+    "id": 4,
+    "name": "IvyBridge-Opencore",
+    "description": "An Ivy-bridge EFI configuration for Opencore 0.9.1 Hackintosh",
+    "tags": ["efi", "aml"],
+    "source_code": "https://github.com/clnmlg/IvyBridge-Opencore"
+  }
 ]
