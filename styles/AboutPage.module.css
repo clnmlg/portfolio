@@ -1,8 +1,8 @@
 .textWeight {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .containerText {
-  word-wrap: break-word;
-  overflow: hidden;
+    word-wrap: break-word;
+    overflow: hidden;
 }

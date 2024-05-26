@@ -3,16 +3,11 @@ import GitHubCalendar from 'react-github-calendar'
 import RepoCard from '../components/RepoCard'
 import styles from '../styles/GithubPage.module.css'
 
-const level0 = '#161B22'
-const level1 = '#0e4429'
-const level2 = '#006d32'
-const level3 = '#26a641'
-const level4 = '#39d353'
-
 const GithubPage = ({ repos, user }) => {
     const theme = {
-        light: [level0, level1, level2, level3, level4],
+        dark: ['#161B22', '#0e4429', '#006d32', '#26a641', '#39d353'],
     }
+
     return (
         <>
             <div className={styles.user}>

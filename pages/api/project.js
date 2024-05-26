@@ -1,10 +1,10 @@
-import data from "../api/project.json";
+import data from '../api/project.json'
 
 export const getProjects = () => {
-  return data;
-};
+    return data
+}
 
 export default (req, res) => {
-  const projects = getProjects();
-  res.json(projects);
-};
+    const projects = getProjects()
+    res.json(projects)
+}

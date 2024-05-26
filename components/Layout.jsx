@@ -1,35 +1,35 @@
-import Titlebar from "../components/Titlebar";
-import Sidebar from "../components/Sidebar";
-import Explorer from "../components/Explorer";
-import Bottombar from "../components/Bottombar";
-import Tabsbar from "./Tabsbar";
-import styles from "../styles/Layout.module.css";
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
-import withSplashScreen from "../components/withSplashScreen";
+import Titlebar from '../components/Titlebar'
+import Sidebar from '../components/Sidebar'
+import Explorer from '../components/Explorer'
+import Bottombar from '../components/Bottombar'
+import Tabsbar from './Tabsbar'
+import styles from '../styles/Layout.module.css'
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+import withSplashScreen from '../components/withSplashScreen'
 
 const Layout = ({ children }) => {
-  const router = useRouter();
-  useEffect(() => {
-    const main = document.getElementById("main-editor");
-    main.scrollTop = 0;
-  }, [router.pathname]);
-  return (
-    <div>
-      <Titlebar />
-      <div className={styles.main}>
-        <Sidebar />
-        <Explorer />
-        <div style={{ width: "100%" }}>
-          <Tabsbar />
-          <main id="main-editor" className={styles.content}>
-            {children}
-          </main>
+    const router = useRouter()
+    useEffect(() => {
+        const main = document.getElementById('main-editor')
+        main.scrollTop = 0
+    }, [router.pathname])
+    return (
+        <div>
+            <Titlebar />
+            <div className={styles.main}>
+                <Sidebar />
+                <Explorer />
+                <div style={{ width: '100%' }}>
+                    <Tabsbar />
+                    <main id="main-editor" className={styles.content}>
+                        {children}
+                    </main>
+                </div>
+            </div>
+            <Bottombar />
         </div>
-      </div>
-      <Bottombar />
-    </div>
-  );
-};
+    )
+}
 
-export default withSplashScreen(Layout);
+export default withSplashScreen(Layout)

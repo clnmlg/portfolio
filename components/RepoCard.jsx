@@ -1,4 +1,4 @@
-/* import WatchIcon from '../components/icons/WatchIcon'
+import WatchIcon from '../components/icons/WatchIcon'
 import ForkIcon from '../components/icons/ForkIcon'
 import StarIcon from '../components/icons/StarIcon'
 import GithubIcon from '../components/icons/GithubIcon'
@@ -57,4 +57,3 @@ const RepoCard = ({ repo }) => {
 }
 
 export default RepoCard
- */
